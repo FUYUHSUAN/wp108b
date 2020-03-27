@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: rgba(255, 160, 71, 0.76);
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background:rgba(255, 138, 71, 0.349);
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+footer {
+  background-color: rgba(255, 160, 71, 0.76);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+  <h2>學歷</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://www.nqu.edu.tw/">金門大學</a></li>
+      <li><a href="https://www.chhs.hcc.edu.tw/">忠信高中</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>金門大學</h1>
+    <p>我就讀金門大學資訊工程學系，目前為大一的學生。</p>
+    <h1>忠信高中</h1>
+    <p>我在108年，畢業於新竹的私立忠信高中</p>
+  </article>
+</section>
+
+<footer>
+  <h2>Memo</h2>
+  <p>不要在該奮鬥的年齡選擇安逸</p>
+</footer>
+
+</body>
+</html>
