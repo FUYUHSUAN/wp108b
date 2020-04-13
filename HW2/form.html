@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HOMEWORK-FORM</title>
+<style>
+ * {
+  font-size: 16px;
+  margin: 0px;
+}
+input {
+  padding: 6px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.main {
+    margin: 20px;
+    padding: 10px;
+    
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:50%;
+  height:200%;
+
+}
+#title{
+  font-size: 30px;
+  color: aliceblue;
+}
+form{
+
+margin-left:center; 
+margin-right:center;
+}
+body {
+  background-color: rgb(15, 4, 65);
+}
+
+
+</style>
+</head>
+</html>
+<body>
+  <h2 id="title">create your own account</h2>
+<div class="container">
+<form>
+<h5>* Mean must be filled</h5>
+<lable for ="Your name">* Your name</lable>
+<br>
+<lable for ="First name">First name:</lable>
+<input type="text" id="firstname" name="firstname" required >
+<lable for ="Last name">Last name:</lable>
+<input type="text" id="lastname" name="lastname" required><br/>
+<label for="birthday" required>* Birthday:</label><br/>
+<input type="date" id="birthday" name="birthday" required><br/>
+<label for="email"><b>* Email</b></label><br/>
+<input type="email"id="email"name="email"><br/>
+<label for="account">* Password:</label><br>
+<input type="pwd" id="account" name="account"required><br/>
+<label for="reaccount">* Repeat-Password:</label><br/>
+<input type="pwd" id="reaccount" name="reaccount"required><br/>
+<label>
+<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me</input>
+</label><br/>
+<label for="country">You Country</label>
+<select id="country" name="country">
+<option value="australia">Australia</option>
+<option value="canada">Canada</option>
+<option value="china">china</option>
+<option value="usa">USA</option>
+<option value="taiwan">Taiwan</option>
+</select><br/>
+
+
+<label>Message:</label><br/>
+<textarea name="message"></textarea><br/>
+<input type="submit" value="Submit">
+</form> 
+</body>
