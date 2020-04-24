@@ -8,7 +8,7 @@
 -------|------
 課程   | 網頁設計
 老師   |陳鍾誠老師
-作業   |[HW1](https://fuyuhsuan.github.io/wp108b/HW1/hw1.html)/[HW2(form)](https://fuyuhsuan.github.io/wp108b/HW2/form.html)/[HW3]   (https://github.com/FUYUHSUAN/wp108b/tree/master/HW3)
+作業   |[HW1](https://fuyuhsuan.github.io/wp108b/HW1/hw1.html)/[HW2(form)](https://fuyuhsuan.github.io/wp108b/HW2/form.html)/[HW3](https://github.com/FUYUHSUAN/wp108b/tree/master/HW3)
 
 ##曾就讀學校:
 
@@ -20,4 +20,4 @@
 
  
 
-![我的照片](FU.jpg)
+![我的照片](https://scontent.fkhh1-2.fna.fbcdn.net/v/t1.0-9/68501566_2337633439688116_7824826403471228928_o.jpg?_nc_cat=108&_nc_sid=85a577&_nc_oc=AQlLhC6B2NFNcbIkEzDHVzKw600Op81ws_8rSd9P84ixq4NyWy_HUN3mCo1J0yUtLo8&_nc_ht=scontent.fkhh1-2.fna&oh=527ccb356adb580f228497a4e5d33210&oe=5EC8FF06)
