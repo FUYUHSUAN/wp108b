@@ -9,7 +9,7 @@
 課程   | 網頁設計
 老師   |陳鍾誠老師
 作業   |[HW1](https://fuyuhsuan.github.io/wp108b/HW1/hw1.html)/[HW2(form)](https://fuyuhsuan.github.io/wp108b/HW2/form.html)/[HW3]   (https://github.com/FUYUHSUAN/wp108b/tree/master/HW3)
-<abbr title="Hypertext Markup Language">HTML</abbr>
+
 ##曾就讀學校:
 
 
