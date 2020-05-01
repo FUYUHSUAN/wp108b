@@ -1,9 +1,9 @@
 function add(a,b){
 
     var c=[];
-    for(i=0;i<2;i++){
+    for(i=0;i<a.length;i++){
         c[i]=[];
-        for(j=0;j<2;j++){
+        for(j=0;j<a[i].length;j++){
             c[i][j]=a[i][j]+b[i][j];
         }
     }
