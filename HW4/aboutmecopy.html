@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+  <meta name="viewport" content="width:device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <head>
+    <style>
+      .header{
+        width: 1400px;
+        background-color: navy;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: navy;
+      }
+.navbar {
+  overflow: hidden;
+  background-color: rgba(211, 219, 230, 0.945);
+  
+}
+.navbar a {
+  float: left;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 35px;   
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(23, 7, 163);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgba(20, 8, 182, 0.712);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#FB{
+position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+top: 50%;  /*設置垂直位置*/
+right: -100px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+background: #ffffff;  /*背景顏色*/
+padding: 10px 20px;
+border-radius: 10px;  /*圓角*/
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+#FB:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+right: -10px;
+}
+#FB #title{
+padding-right: 5px;  /*讓標題與連結中間有空隙*/
+}
+</style>
+  </head>
+  <body>
+          
+    <div class="w3-row w3-border">
+      <div class="w3-quarter w3-container w3-red">
+        <h2>w3-quarter</h2>  
+        <p>The w3-quarter class uses 25% of the parent container.</p>
+        <p>On screens smaller than 601 pixels it resizes to full screen.</p>
+      </div>
+      
+      
+      </div>
+    <div id="FB">
+      <span id="title">facebook</span>
+      <a target="_blank" href="https://www.facebook.com/PeterlaiHsinpu/">Going to facebook</a>
+      </div>
+    <div class="header">
+      <img src="常春藤.jpg" alt="Car" style="width: 9%;">
+      <div class="w3-container w3-navy">
+      </div>
+    </div>
+    <div class="content">
+      <div class="navbar">
+        <a href="#home">班級介紹</a>
+        <a href="#news">活動專區</a>
+        <div class="dropdown">
+          <button class="dropbtn">班級介紹 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">兒童美語</a>
+            <a href="#">國中美語</a>
+            <a href="#">全民英檢</a>
+          </div>
+        </div> 
+      </div>
+    </div>
+    <img src="">
+      <img src="42706.jpg" alt="Car" style="width: 100%;">
+    </div>
+    <div class="w3-container w3-red">
+      <h5>Footer</h5>
+    </div> 
+    <div class="w3-container">
+      <h2>Mobile First Responsiveness</h2>
+      <p class="w3-large">Try to resize the window!</p>
+      </div>
+
+         
+  </body>
+</html>
