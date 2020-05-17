@@ -1,13 +1,12 @@
 .header{
-    width: 1400px;
-    background-color: navy;
-  }
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: "Lato", sans-serif;
-    background-color: rgba(32, 179, 236, 0.61);
-    /*background-image: url('sky.jpg');*/
-  }
+  width: 1350px;
+  background-color: navy;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(32, 179, 236, 0.61);
+  /*background-image: url('sky.jpg');*/
+}
 .navbar {
 overflow: hidden;
 background-color: rgba(211, 219, 230, 0.945);
@@ -59,7 +58,7 @@ text-align: left;
 }
 
 .enter{
-  text-align: right;
+text-align: right;
 }
 
 .dropdown-content a:hover {
@@ -86,77 +85,35 @@ right: -10px;
 padding-right: 5px;  /*讓標題與連結中間有空隙*/
 }
 #Line{
-    position: fixed;
-    top: 60%;
-    right: -100px;
-    background-color: #ffffff;
-    padding: 10px 20px;
-    border-radius: 10px;
-    -moz-border-radius:10px;
-    -webkit-border-radius:10px;
+  position: fixed;
+  top: 60%;
+  right: -100px;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
 }
 #Line:hover{
-    right:-10px;
+  right:-10px;
 }
 #Line #title1{
-    padding-right:5px ;
+  padding-right:5px ;
 }
 .footer{
-  height: 250px;
-  width: 1400px;
-  background-color: rgba(169, 169, 175, 0.705);
-  
+width: 1400px;
+background-color: rgba(169, 169, 175, 0.705);
+
 }
 .footer img{
-    display: block;
-    margin-left: center;
-    margin-right: center;
+  display: block;
+  margin-left: center;
+  margin-right: center;
 }
 
 .content{
-    color: #fffffffd ;
-    font-size: 30px;
-    font-family:幻想體 ;
-}
-
-
-/*測攔*/
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(7, 16, 150);
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  color: #fffffffd ;
+  font-size: 30px;
+  font-family:幻想體 ;
 }
 
