@@ -4,7 +4,8 @@
   }
   body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: navy;
+    background-color: navy;);
+    background-image: url('sky.jpg');
   }
 .navbar {
 overflow: hidden;
@@ -56,6 +57,10 @@ display: block;
 text-align: left;
 }
 
+.enter{
+  text-align: right;
+}
+
 .dropdown-content a:hover {
 background-color: #ddd;
 }
@@ -100,3 +105,19 @@ padding-right: 5px;  /*讓標題與連結中間有空隙*/
   background-color: rgba(169, 169, 175, 0.705);
   
 }
+.footer img{
+    display: block;
+    margin-left: center;
+    margin-right: center;
+}
+
+.content{
+    color: #fffffffd ;
+    font-size: 30px;
+    font-family:幻想體 ;
+}
+
+
+
+
+

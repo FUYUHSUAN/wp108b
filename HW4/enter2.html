@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HOMEWORK-FORM</title>
+<style>
+ * {
+  font-size: 16px;
+  margin: 0px;
+}
+input {
+  padding: 6px;
+  font-size: 16px;
+  border-radius: 10px;
+  text-align:left;
+
+}
+
+.main {
+    margin: 20px;
+    padding: 10px;
+    
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:15%;
+  height:200%;
+}
+#title{
+  font-size: 50px;
+  color: aliceblue;
+  font-family:fantasy;
+}
+body {
+  background-color: rgb(15, 4, 65);
+  background-image: url('常春藤_200515_0009.jpg');
+  background-size: 1550px 650px;
+}
+label{
+  font-family:monospace;
+}
+</style>
+</head>
+</html>
+<body>
+<div align="left">
+<h2 id="title">Enter</h2>
+</div>
+<div class="container">
+<form>
+<label for="account">* account:</label><br>
+<input type="pwd" id="account" name="account"required><br/>
+<label for="Password">* Password:</label><br/>
+<input type="pwd" id="reaccount" name="reaccount"required><br/>
+<label>
+<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me</input>
+</label><br/>
+
+<input type="submit" value="Submit">
+</form> 
+</body>
