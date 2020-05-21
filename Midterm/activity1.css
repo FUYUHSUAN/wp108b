@@ -1,0 +1,48 @@
+/* 測驗題目 */
+div.gallery {
+    margin: 80px;
+    border: 2px solid rgba(248, 162, 3, 0.685);
+    float: center; 
+    width: 300px;
+    height: 300px;
+    font-family:'微軟正黑體';
+    background: rgb(243, 179, 59);
+    /* margin-bottom: 80px; */
+
+}
+
+div.gallery:hover {
+    border: 3px solid rgb(245, 228, 79);
+    background: rgb(245, 228, 79);
+}
+
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+p.desc {
+    padding-top: 10px;
+    padding: 20px;
+}
+
+/* 解答_背框*/
+#rcorners3 {
+    border-radius: 15px 50px 30px;
+    background: rgb(228, 95, 157);
+    padding: 20px; 
+    width: 600px;
+    height: 800px; 
+    margin: 0 auto; 
+    margin-top: 80px;
+    font-family:'微軟正黑體';
+    font-size: 14pt;
+}
+#rcorners4 {
+    border-radius: 15px 50px 30px 5px;
+    background: rgba(236, 157, 194, 0.781);
+    margin:0 auto;
+    margin-top: 20px;
+    padding: 4px; 
+}

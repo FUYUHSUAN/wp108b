@@ -6,7 +6,9 @@ body{
   font-family: 'Raleway', sans-serif;
   color: #FFF;
   font-size: 1.75vw;
-  background-image: url("picture/background.jpg");
+  background-image: url('picture/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 body *{
   width: 100%;
@@ -40,14 +42,14 @@ input{
 /* -------------------------------------------------------- codepen */
 h1,
 p{
-	line-height: 10px;
+	line-height: 22vw;
 }
 .galleries{
   	width: 44vw;
   	margin: 5vw auto;
 }
 .galleries .gallery-1{
-  background-color: #00DBF9;
+	background-color: #00DBF9;
 }
 .galleries .gallery-2{
 	background-color: #3D5B84;
@@ -96,3 +98,36 @@ p{
 	text-transform: uppercase;
 }
 /* -------------------------------------------------------- end codepen */
+/* -------------------------------------------------------- footer */
+.footer{
+  width: 30%;
+  margin: 5vw auto;
+  text-align: center;
+}
+.footer p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1vw;
+  color: #000;
+  font-weight: normal;
+  line-height: normal;
+  text-transform: none;
+  padding: 1vw;
+}
+.footer p span{
+  display: block;
+}
+.footer a{
+  display: inline;
+  text-transform: uppercase;
+  border-bottom: 0.1vw solid #000;
+}
+
+@media only screen and (max-width:600px){
+  .imgtxtDiv div{
+    visibility: visible;
+    position: relative;
+  }
+  .imgtxtDiv div{
+    margin-bottom: 0px;
+  }
+}
