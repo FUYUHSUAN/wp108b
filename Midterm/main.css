@@ -6,6 +6,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-family: "Lato", sans-serif;
     background-color: rgba(32, 179, 236, 0.61);
+    min-width: 500px;
+    overflow: scroll;
     /*background-image: url('sky.jpg');*/
  }
  /*school*/
@@ -51,7 +53,7 @@ background-color: rgba(211, 219, 230, 0.945);
 }
 .navbar a {
 float: left;
-font-size: 35px;
+font-size: 3vw;
 color: white;
 text-align: center;
 padding: 14px 16px;
@@ -61,8 +63,11 @@ text-decoration: none;
 float: left;
 overflow: hidden;
 }
+ button.dropbtn{
+  font-size: 3vw;
+}
 .dropdown .dropbtn {
-font-size: 35px;   
+font-size: 3vw;   
 border: none;
 outline: none;
 color: white;
@@ -105,6 +110,7 @@ background-color: #ddd;
 .dropdown:hover .dropdown-content {
 display: block;
 }
+/*右拉欄*/
 #FB{
 position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
 top: 50%;  /*設置垂直位置*/
@@ -137,6 +143,9 @@ padding-right: 5px;  /*讓標題與連結中間有空隙*/
 #Line #title1{
     padding-right:5px ;
 }
+/*/右拉欄*/
+
+
 .footer{
   height: 250px;
   width: 1400px;
@@ -151,7 +160,7 @@ padding-right: 5px;  /*讓標題與連結中間有空隙*/
 
 .content{
     color: #fffffffd ;
-    font-size: 30px;
+    font-size: 3vw;
     font-family:幻想體 ;
 }
 

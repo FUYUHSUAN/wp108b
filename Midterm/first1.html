@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>小一新天地</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(14, 24, 119);
+  padding: 25px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: 2c6ab1;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 35px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(14, 24, 119);;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+  <h2>小一新天地</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="picture/schedule.png">小一暑期課表</a></li>
+      <li><a href="first1.html">小一及未來的規劃</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+      <h1>學習即是提早規劃</h1>
+    <ol>
+        <li>一年級:學習基本禮儀，從小培養禮貌，及基本常規，寒症去的中英文發音</li>
+        <li>二年級:訓練字體工整，即開始自然發音的訓練</li>
+        <li>三年級:累積英文單字量，運用中英文老師輔助，參加單字王大賽</li>
+        <li>四年級:慢慢在文法上做基礎的訓練</li>
+        <li>五年級:更加累積基本單子及文法，參加全國拼字王比賽，努力達成自我</li>
+        <li>六年級:朝全民英檢初級目標前進</li>
+      </ol>
+  </article>
+  
+</section>
+
+<footer>
+  <p>Memo:現在的努力，是為了在將來無論是工作還是生活能有選擇權</p>
+</footer>
+
+</body>
+</html>
