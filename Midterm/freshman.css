@@ -42,23 +42,23 @@ input{
 /* -------------------------------------------------------- codepen */
 h1,
 p{
-	line-height: 22vw;
+	line-height: 5vw;
 }
 .galleries{
   	width: 44vw;
   	margin: 5vw auto;
 }
 .galleries .gallery-1{
-	background-color: #00DBF9;
+	background-color: #FD7FE3;
 }
 .galleries .gallery-2{
 	background-color: #3D5B84;
 }
 .galleries .gallery-3{
-	background-color: #FD7FE3;
+	background-color: #000000;
 }
 .galleries .gallery-4{
-	background-color: #7E6DE0;
+	background-color: rgb(238, 13, 13);
 }
 .galleries > label{
 	width: 22vw;

@@ -2,12 +2,48 @@
     width: 1400px;
     background-color: navy;
   }
-  body {
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-family: "Lato", sans-serif;
     background-color: rgba(32, 179, 236, 0.61);
     /*background-image: url('sky.jpg');*/
-  }
+ }
+ /*school*/
+body.school{
+    background-color: rosybrown;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+  /*/school*/
+
+/*freshmanqa*/
+body.freshmanqa{
+    background-image: url("picture/freshmanqa.jpg");
+    font-family: fantasy 幻想體;
+    margin-left: auto;
+    margin-right: auto;
+}
+ol {
+    background: rgba(101, 217, 238, 0.192);
+    padding: 20px;
+}
+ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+/*/freshmanqa*/  
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
 .navbar {
 overflow: hidden;
 background-color: rgba(211, 219, 230, 0.945);
@@ -157,6 +193,6 @@ padding-right: 5px;  /*讓標題與連結中間有空隙*/
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav a {font-size: 14px;}
 }
 
