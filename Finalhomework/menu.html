@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<title>Menu</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+  background-color:floralwhite
+}
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">~~MENU~~</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">Set Menu</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">A La Carte</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h4>Single Set Menu:$459</h4>
+      <p class="w3-text-grey"> (include Apprtizer, Main course,Dessert)</p><br>
+      <h5>Appetizer</h5>
+      <p class="w3-text-grey">Soup:1.Tomato Soup 2.Chicken Soup 3.
+Vegetarian soup(choose one)</p><p class="w3-text-grey">Salad:1.Fruit Salad 2.Chicken Salad(choose one)</p>
+    
+      <h5>Main course</h5>
+      <p class="w3-text-grey">Steak:1.Filet Mignon 2.Sirloin 3.Surf And Turf(choose one)</p><br>
+    
+      <h5>Dessert</h5>
+      <p class="w3-text-grey">Fruit & Cheese</p><p class="w3-text-grey">chocolate ice cream</p><br>
+    
+      <h5>Beverage</h5>
+      <p class="w3-text-grey">coffee/apple juice/fruit tea(choose one)</p><br>
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Cake</h5>
+      <p class="w3-text-grey">1.chocolate:$65 2.cheese:$70 3.fruit:$55</p><br>
+    
+      <h5>Beverage</h5>
+      <p class="w3-text-grey">1.Coffee:$70 2.apple juice:$65 3.fresh juice:$70 4.fruit tea:$65</p><br>
+    
+      <h5>Waffle</h5>
+      <p class="w3-text-grey">1.cheese and strewberry:$80 2.cheese:$70 3.butter:$75</p><br>
+    
+      <h5>Solod</h5>
+      <p class="w3-text-grey">1.tomato:$90 2.chicken:$100</p><br>
+    </div>  
+  </div>
+</div>
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
