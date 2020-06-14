@@ -1,27 +1,131 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Welcome to Christina's restaurant</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway:600,900" rel="stylesheet">
 <style>
-body {font-family: "Times New Roman", Georgia, Serif;}
+/*Chef*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Raleway;
+  background-color: #202125;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2.0em;
+    letter-spacing: 1px;
+    padding: 40px;
+    color: white;
+}
+
+.gallery-image {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image img {
+  height: 250px;
+  width: 350px;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+
+.img-box {
+  box-sizing: content-box;
+  margin: 10px;
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  background-color: white;
+}
+
+.caption {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  opacity: 0.0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+  height: 250px;
+  width: 350px;
+  background-color:rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
+
+.img-box:hover img { 
+  transform: scale(1.1);
+}
+
+.img-box:hover .transparent-box {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.img-box:hover .caption {
+  transform: translateY(-20px);
+  opacity: 1.0;
+}
+
+.img-box:hover {
+  cursor: pointer;
+}
+
+.caption > p:nth-child(2) {
+  font-size: 0.8em;
+}
+
+.opacity-low {
+  opacity: 0.5;
+}
+/*Chef end*/
+body {font-family: "Times New Roman", Georgia, Serif;
+  background-color: rgb(140, 255, 184);
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display";
   letter-spacing: 5px;
 }
+.w3-bar-block .w3-bar-item {padding:20px}
 </style>
 <body>
 
+  <!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="message.html" onclick="w3_close()" class="w3-bar-item w3-button">The opinion you want to reply</a>
+  <a href="time.html" onclick="w3_close()" class="w3-bar-item w3-button">Business Hours</a>
+  <a href="Pos/index.html"  onclick="w3_close()" class="w3-bar-item w3-button">Order food</a>
+</nav>
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button">Gourmet au Catering</a>
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;"> 
+  <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <img src="https://image.freepik.com/free-vector/dating-couple-enjoying-romantic-dinner_74855-5233.jpg" style="width: 5%;">
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
+
       <a href="#about" class="w3-bar-item w3-button">About</a>
       <a href="#menu" class="w3-bar-item w3-button">Menu</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      <a href="#Chef" class="w3-bar-item w3-button">Our Chef</a>
+      <a href="#picture" class="w3-bar-item w3-button">Foodpicture</a>
     </div>
   </div>
 </div>
@@ -38,37 +142,37 @@ h1, h2, h3, h4, h5, h6 {
 <div class="w3-content" style="max-width:1100px">
 
   <!-- About Section -->
-  <div class="w3-row w3-padding-64" id="about">
+  <div class="w3-row w3-padding-64" id="about" style="color: rgb(92, 163, 45);background-color: blanchedalmond;">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="/w3images/tablesetting2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+     <img src="picture/food.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
     </div>
 
     <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center">About Catering</h1><br>
-      <h5 class="w3-center">Tradition since 1889</h5>
-      <p class="w3-large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class="w3-tag w3-light-grey">seasonal</span> ingredients.</p>
-      <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h1 class="w3-center">About Christina Restaurant</h1><br>
+      <h5 class="w3-center">Tradition since 2020</h5>
+      <p class="w3-large">The Christina Restaurant was started in 5/29 2020.In our restaurant ,we use most<span class="w3-tag w3-light-grey">"Healthy","Original"</span> ingredients to cook our specilist food.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Expect the food in the menu ,we also sell the breads in our store.It's also use the "Healthy","Original"ingredients to made it.By the way ,don't forget to visit the Christina Restaurant when you have free time.You will have new expension here.</p>
     </div>
   </div>
   
   <hr>
   
   <!-- Menu Container -->
-<div class="w3-container" id="menu">
-  <div class="w3-content" style="max-width:700px">
+<div class="w3-container" id="menu" style="color: rgb(3, 20, 31);background-color: rgb(255, 218, 237);">
+  <div class="w3-content" style="max-width:700px;background-color: rgb(255, 230, 247);" >
  
     <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">~~MENU~~</span></h5>
   
-    <div class="w3-row w3-center w3-card w3-padding">
+    <div class="w3-row w3-center w3-card w3-padding" >
       <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
-        <div class="w3-col s6 tablink">Set Menu</div>
+        <div class="w3-col s6 tablink">Single Set Menu </div>
       </a>
       <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
         <div class="w3-col s6 tablink">A La Carte</div>
       </a>
     </div>
 
-    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card" style="background-color:rgb(218, 222, 231)">
       <h4>Single Set Menu:$459</h4>
       <p class="w3-text-grey"> (include Apprtizer, Main course,Dessert)</p><br>
       <h5>Appetizer</h5>
@@ -85,7 +189,7 @@ Vegetarian soup(choose one)</p><p class="w3-text-grey">Salad:1.Fruit Salad 2.Chi
       <p class="w3-text-grey">coffee/apple juice/fruit tea(choose one)</p><br>
     </div>
 
-    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card" style="background-color:rgb(222, 235, 173)">
       <h5>Cake</h5>
       <p class="w3-text-grey">1.chocolate:$65 2.cheese:$70 3.fruit:$55</p><br>
     
@@ -95,33 +199,97 @@ Vegetarian soup(choose one)</p><p class="w3-text-grey">Salad:1.Fruit Salad 2.Chi
       <h5>Waffle</h5>
       <p class="w3-text-grey">1.cheese and strewberry:$80 2.cheese:$70 3.butter:$75</p><br>
     
-      <h5>Solod</h5>
+      <h5>Salad</h5>
       <p class="w3-text-grey">1.tomato:$90 2.chicken:$100</p><br>
     </div>  
   </div>
 </div>
 
+
+<!--Our Chrf-->
+<p class="heading">About our chef</p>
+<div class="gallery-image" id="Chef">
+  <div class="img-box">
+    <img src="https://image.freepik.com/free-vector/cartoon-chef-background_23-2148026564.jpg" alt="" />
+    <div class="transparent-box">
+      <div class="caption">
+        <h3>Chef Jan</h3>
+        <p>Good at made pizza</p>
+        <p class="opacity-low">Background vector created by freepik - www.freepik.com</p>
+      </div>
+    </div> 
+  </div>
+  <div class="img-box">
+    <img src="https://image.freepik.com/free-vector/people-cooking-design_24908-60987.jpg" alt="" />
+    <div class="transparent-box">
+      <div class="caption">
+        <h3>Chef Christina</h3>
+        <p>Good at find the healthy and original food</p>
+        <p class="opacity-low">Food vector created by gstudioimagen - www.freepik.com</p>
+      </div>
+    </div>
+  </div>
+  <div class="img-box">
+    <img src="https://image.freepik.com/free-vector/bakery-dessert-milk-bar-design_24877-49868.jpg" alt="" />
+    <div class="transparent-box">
+      <div class="caption">
+        <h3>Chef Jason</h3>
+        <p>Good at made the bread ,all the food have the bread was made by Jason</p>
+        <p class="opacity-low">Food vector created by studiogstock - www.freepik.com</p>
+      </div>
+    </div>
+  </div>
+  <div class="img-box">
+    <img src="https://image.freepik.com/free-vector/chef-illustration_23-2147517731.jpg" alt="" />
+    <div class="transparent-box">
+      <div class="caption">
+        <h3>Chef William</h3>
+        <p>Good at made many delicious and specilist food</p>
+        <p class="opacity-low">Restaurant vector created by freepik - www.freepik.com</p>
+      </div>
+    </div> 
+  </div>
+</div>
+
+
   <!-- Contact Section -->
-  <div class="w3-container w3-padding-64" id="contact">
-    <h1>Contact</h1><br>
-    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
-    <p class="w3-text-blue-grey w3-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
-    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
-      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
-      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
-    </form>
+  <div class="w3-container w3-padding-64" id="picture" style="color: rgb(92, 163, 45);background-color: blanchedalmond;">
+    <h1 align="center">The Delicious food</h1>
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food" >
+    <div class="w3-quarter">
+      <img src="picture/dessert.jpg" alt="dessert" style="width:100%">
+      <h3>The Delicious dessert, let's relax</h3>
+      <p>When you have a split, you will fall in love our dessert</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="picture/steak.jpg" alt="Steak" style="width:100%">
+      <h3>Let Me Tell You About Our Steak</h3>
+      <p>Trust me,you can't never forget our delicious Steak</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="picture/pizza.jpg" alt="Pizza" style="width:100%">
+      <h3>Pizza,original</h3>
+      <p>Include Natural raw materials </p>
+      <p>What else?</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="picture/sandwich.jpg" alt="Sandwich" style="width:100%">
+      <h3>The Perfect Sandwich</h3>
+      <p>Have the greatest favor</p>
+    </div>
+  </div>
+  
+</div>
+
   </div>
   
 <!-- End page content -->
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-32">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+<footer class="w3-center w3-light-grey w3-padding-32" style="background-color: seagreen;">
+  <p class="opacity-low">The picture on the function table was made by "People vector created by pch.vector - www.freepik.com"</p>
 </footer>
 <script>
   // Tabbed Menu
@@ -139,6 +307,15 @@ Vegetarian soup(choose one)</p><p class="w3-text-grey">Salad:1.Fruit Salad 2.Chi
     evt.currentTarget.firstElementChild.className += " w3-dark-grey";
   }
   document.getElementById("myLink").click();
+
+  // Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
 
 
   </script>

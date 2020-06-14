@@ -48,6 +48,7 @@
         input[type=text] {
           width: 500px;
         }
+
        
       </style>
     </head>
@@ -55,7 +56,8 @@
       <section id="content">
         <!-- list: 列出所有貼文的畫面 -->
         <div id="list" class="panel">
-          <h1>Anything you want to 
+          <h1 style="color:khaki;-webkit-text-stroke: 1px black;
+          color: khaki;">Anything you want to 
             reflect.Please write here.</h1>
           <p>You have <strong id="postsLength"></strong> reflect!</p>
           <p><a href="#/create/">Give us the opinion</a></p>
@@ -156,16 +158,22 @@
     //小視窗
     function confirmTest() {
             Swal.fire({
-                title: "Do you want to receive?",
+                title: "Do you want to hand out?",
                 text: "Y/N",
                 showCancelButton: true
             }).then(function(result) {
-               if (result.value) {
-                    Swal.fire("Thank you we receive you opinion");
-                    window.location.href="main.html";
+               if (result.value){
+                    Swal.fire({
+                      title:"Thank you ,we receive you opinion!",
+                      text:"",
+                      timer:2000,
+                      showCancelButton:true ,
+                 })
+                  window.location.href="main.html"
+                    
                }
                else {
-                   Swal.fire("您選擇了Cancel");
+                   Swal.fire("You choose Cancel!");
                }
             });
         }

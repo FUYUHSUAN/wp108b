@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background-image: url('picture/coffee.jpg');
+          background-size:auto;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width:90%;
+  height:200%;
+  margin-left:auto; 
+  margin-right:auto;
+
+}
+/* 基本表格設定 */
+.rwdTable {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 5px;
+}
+
+.rwdTr, .rwdTitle_gorup {
+  display: table-row;
+}
+
+.rwdTh, .rwdTd {
+  display: table-cell;
+  vertical-align: top;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+/* 表格單雙行顏色變化 */
+.rwdTr:nth-of-type(odd), .rwdTitle_gorup:nth-of-type(odd) {
+  background-color: #eaeaea;
+}
+
+/* 表頭背景藍色 */
+.rwdTh {
+  background-color: rgb(238, 222, 76);
+  color: #ffffff;
+}
+@media (max-width: 767.98px) {
+  /* 增加外框線 */
+  .container{
+    width:50%;
+  height:150%;
+  }
+  .rwdTable{
+    border: 1px solid #188EBE;;
+    
+  }
+
+  /* 將表格中間的空間刪掉 */
+  .rwdTable {
+    border-spacing: 0px;
+  }
+
+  /* 隱藏表頭列 */
+  .rwdTr:first-of-type {
+    display: none;
+  }
+  
+  .rwdTd {
+    display: table;
+    padding: 0;
+  }
+ 
+  .rwdTd:before{
+    content: attr(data-th);
+    display: table-cell;
+    font-weight: bold;
+    color: #fff;
+    padding: 3px 10px;
+    white-space: nowrap;
+    text-align: left !important;
+    width: 60px;
+    background-color:khaki;
+    vertical-align: top;
+  }
+
+  .rwdTd span{
+    padding: 3px 10px;
+    display: inline-block;
+  }
+
+  .rwdTr:nth-of-type(odd), .rwdTitle_gorup:nth-of-type(odd) {
+    background-color: #e8f6ff;
+  }
+}
+</style>
+</head>
+<body>
+    <h1 align="center">Bussiness hours</h1>
+    <div class="container">
+    <div class="rwdTable">
+        <div class="rwdTr">
+          <div class="rwdTh">time/day</div>
+          <div class="rwdTh">Monday</div>
+          <div class="rwdTh">Tuesday</div>
+          <div class="rwdTh">Wednesday</div>
+          <div class="rwdTh">Thursday</div>
+          <div class="rwdTh">Friday</div>
+          <div class="rwdTh">Saturday</div>
+          <div class="rwdTh">Sunday</div>
+        </div>
+        <div class="rwdTr">
+          <div class="rwdTd" data-th="time/day"><span>7a.m-9a.m</span></div>
+          <div class="rwdTd" data-th="Monday"><span> Break time</span></div>
+          <div class="rwdTd" data-th="Tuesday"><span> Break time</span></div>
+          <div class="rwdTd" data-th="Wednesday"><span> business hours</span></div>
+          <div class="rwdTd" data-th="Thursday"><span> business hours</span></div>
+          <div class="rwdTd" data-th="Friday"><span> business hours</span></div>
+          <div class="rwdTd" data-th="Saturday"><span> business hours</span></div>
+          <div class="rwdTd" data-th="Sunday"><span> business hours</span></div>
+        </div>
+        <div class="rwdTr">
+            <div class="rwdTd" data-th="time/day"><span>9a.m-11a.m</span></div>
+            <div class="rwdTd" data-th="Monday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Tuesday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Wednesday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Thursday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Friday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Saturday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Sunday"><span> business hours</span></div>
+          </div>
+          <div class="rwdTr">
+            <div class="rwdTd" data-th="time/day"><span>11a.m-13p.m</span></div>
+            <div class="rwdTd" data-th="Monday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Tuesday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Wednesday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Thursday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Friday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Saturday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Sunday"><span> business hours</span></div>
+          </div>
+          <div class="rwdTr">
+            <div class="rwdTd" data-th="time/day"><span>13p.m-15p.m</span></div>
+            <div class="rwdTd" data-th="Monday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Tuesday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Wednesday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Thursday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Friday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Saturday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Sunday"><span> business hours</span></div>
+          </div>
+          <div class="rwdTr">
+            <div class="rwdTd" data-th="time/day"><span>15p.m-17p.m</span></div>
+            <div class="rwdTd" data-th="Monday"><span> Break time</span></div>
+            <div class="rwdTd" data-th="Tuesday"><span> Break time</span></div>
+            <div class="rwdTd" data-th="Wednesday"><span> Break time</span></div>
+            <div class="rwdTd" data-th="Thursday"><span> Break time</span></div>
+            <div class="rwdTd" data-th="Friday"><span> Break time</span></div>
+            <div class="rwdTd" data-th="Saturday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Sunday"><span> Break time</span></div>
+          </div>
+          <div class="rwdTr">
+            <div class="rwdTd" data-th="time/day"><span>17p.m-19p.m</span></div>
+            <div class="rwdTd" data-th="Monday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Tuesday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Wednesday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Thursday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Friday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Saturday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Sunday"><span> Break time</span></div>
+          </div>
+          <div class="rwdTr">
+            <div class="rwdTd" data-th="time/day"><span>19p.m-21p.m</span></div>
+            <div class="rwdTd" data-th="Monday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Tuesday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Wednesday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Thursday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Friday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Saturday"><span> business hours</span></div>
+            <div class="rwdTd" data-th="Sunday"><span> Break time</span></div>
+          </div>
+      </div>
+    </div>
+
+</body>
+</html>
