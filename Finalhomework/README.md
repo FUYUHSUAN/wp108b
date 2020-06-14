@@ -11,8 +11,8 @@
 <h3>頁面開始(main.html)</h3>
 <ol>
   <li>我的版面配置是參考W3 School中的W3 Templete
-    <p> [W3 Templete]    (https://www.w3schools.com/w3css/tryw3css_templates_gourmet_catering.htm)</p>
-    <p> [W3 Templete](https://www.w3schools.com/w3css/tryw3css_templates_food_blog.htm)</p></li>
+    <p> [W3 Templete]    (https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_gourmet_catering&stacked=h)</p>
+    <p> [W3 Templete](https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_food_blog&stacked=h)</p></li>
   <li>其中我對其中的html,css是全部理解。js是有一小部分不太理解，我認為我有大幅度的修改裡面內容</li>
   <li>裡面圖片的格式我是參考[CSS Gallery](https://codepen.io/heyDante/pen/bxEYOw)，而圖片這來自於  
       CC picture 和 Freepik圖片皆有在其圖上或是footer 的地方標示出處</li>
