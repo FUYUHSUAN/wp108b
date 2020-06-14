@@ -10,5 +10,8 @@
 ### 接者，就來介紹一下，作品中所參考的資料，及我對其理解及改篇的程度。
 <ol>
   <p>從主頁面開始(main.html)</p>
-  <li>我的版面配置是參考W3 School中的W3 Templete [W3 Templete](https://www.w3schools.com/w3css/tryw3css_templates_gourmet_catering.htm)[W3 Templete](https://www.w3schools.com/w3css/tryw3css_templates_food_blog.htm)</li>
+  <li>我的版面配置是參考W3 School中的W3 Templete [W3 Templete](https://www.w3schools.com/w3css/tryw3css_templates_gourmet_catering.htm) /
+    [W3 Templete](https://www.w3schools.com/w3css/tryw3css_templates_food_blog.htm)</li>
   <p>其中我對其中的html,css是全部理解。js是有一小部分不太理解，我認為我有大幅度的修改裡面內容</p>
+  <p>裡面圖片的格式我是參考[CSS Gallery](https://codepen.io/heyDante/pen/bxEYOw)，而圖片這來自於CC picture 和 Freepik圖片皆有在其圖上或是footer 的地方標示出處</p>
+ 
