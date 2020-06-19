@@ -51,6 +51,8 @@ overflow: hidden;
 background-color: rgba(211, 219, 230, 0.945);
 
 }
+
+/*參考W3school*/
 .navbar a {
 float: left;
 font-size: 3vw;
@@ -110,6 +112,9 @@ background-color: #ddd;
 .dropdown:hover .dropdown-content {
 display: block;
 }
+/*參考W3school (END)*/
+
+
 /*右拉欄*/
 #FB{
 position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
