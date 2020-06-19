@@ -11,5 +11,5 @@
 
 ## 引用及修改網址:
 > * 這部份是我有引用html是看懂後對裡面的文字圖例做小部分修改 [environment.html/environment.css](https://codepen.io/sashatran/pen/aJvaEG)
-> * 這部份幾乎是自己打的，參考及學習於W3School。[attitude.html/elementary.html/attitude.html/junior.html/peterbear.html/test.html](https://www.w3schools.com/html/default.asp)
+> * 這部份幾乎是自己打的，參考及學習於W3School，此處的全都共用於peterbear.js和main.css。[attitude.html/elementary.html/attitude.html/junior.html/peterbear.html/test.html](https://www.w3schools.com/html/default.asp)
 > * 
