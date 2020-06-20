@@ -23,8 +23,10 @@
 > * <h3> 接者介紹顧客反應介面(message.html和message.js)</h3>
  <ol>
   <li>這裡面的基本配置來自老師教得[blog](https://ccccourse.github.io/wp/code/08-app2/blog/vanillaBlog.html?fbclid=IwAR3B366-aytjcL6UqLVouj7tysDSKywOJQ97w7fg1uwG4ZvYf6o1E19cYoI#/list/)</li>
-  <li></li>
-  </
+  <li>運用漂亮[小視窗](http://mishengqiang.com/sweetalert2/)SweetAlert2，有小部分的修改期中內容，幾乎完全了解裡面程式</li>
+  </ol>
+  
+> * <h3></h3>
   
   <p>還沒全部做完，持續增加中</p>
  
