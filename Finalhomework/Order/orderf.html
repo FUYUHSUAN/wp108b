@@ -16,25 +16,27 @@
                 <img src="" id="productimg" class="orderfimg">
                 <div class="text-introduction">
                     <br>
-                    <p><b>NAME:</b></p>
+                    <p><b id="productTitle">NAME:</b></p>
                     <p>*The food include the most delicious favor</p>
                     <p>*The most healthy</p>
                     <p>*The most original</p>
                     <p id="productPrice"></p>
-                    Quility=<select>
+                    Quility=<select id="qty">
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
                     </select>
-                    <button class="button2" id="buttonadd" onclick="this.data=true;storeData()">Add to shopping cart</button>
+                    <button class="button2" id="buttonadd" onclick="storeData()">Add to shopping cart</button>
                 </div>
             </div>
         </div>
     </div>
 
     <script>
-        loadFunction();
+        loadfunction();
+        
+localStorage.clear();
     </script>
   </body>
 </html>
