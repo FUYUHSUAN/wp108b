@@ -11,23 +11,23 @@
 ## 作品參考來源:
 ### 接者，就來介紹一下，作品中所參考的資料，及我對其理解及改篇的程度。
 > * <h3>頁面開始(main.html)</h3>
-  <ol>
-    <li>我的版面配置是參考W3 School中的W3 Templete
-    <p> [W3 Templete]    (https://www.w3schools.com/w3css/tryit.asp?        filename=tryw3css_templates_gourmet_catering&stacked=h)</p>
-    <p> [W3 Templete](https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_food_blog&stacked=h)</p></li>
-  <li>其中我對其中的html,css是全部理解。js是有一小部分不太理解，我認為我有大幅度的修改裡面內容</li>
-  <li>裡面圖片的格式我是參考[CSS Gallery](https://codepen.io/heyDante/pen/bxEYOw)</li>
-  </ol>
- <ol>
+<ol>
+<li>我的版面配置是參考W3 School中的W3 Templete
+<p> [W3 Templete]    (https://www.w3schools.com/w3css/tryit.asp?        filename=tryw3css_templates_gourmet_catering&stacked=h)</p>
+<p> [W3 Templete](https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_food_blog&stacked=h)</p></li>
+<li>其中我對其中的html,css是全部理解。js是有一小部分不太理解，我認為我有大幅度的修改裡面內容</li>
+<li>裡面圖片的格式我是參考[CSS Gallery](https://codepen.io/heyDante/pen/bxEYOw)</li>
+</ol>
+<ol>
   
 > * <h3> 接者介紹顧客反應介面(message.html和message.js)</h3>
  <ol>
-  <li>這裡面的基本配置來自老師教得[blog](https://ccccourse.github.io/wp/code/08-app2/blog/vanillaBlog.html?fbclid=IwAR3B366-aytjcL6UqLVouj7tysDSKywOJQ97w7fg1uwG4ZvYf6o1E19cYoI#/list/)</li>
-  <li>運用漂亮[小視窗](http://mishengqiang.com/sweetalert2/)SweetAlert2，有小部分的修改期中內容，幾乎完全了解裡面程式</li>
-  </ol>
+<li>這裡面的基本配置來自老師教得[blog](https://ccccourse.github.io/wp/code/08-app2/blog/vanillaBlog.html?fbclid=IwAR3B366-aytjcL6UqLVouj7tysDSKywOJQ97w7fg1uwG4ZvYf6o1E19cYoI#/list/)</li>
+<li>運用漂亮[小視窗](http://mishengqiang.com/sweetalert2/)SweetAlert2，有小部分的修改期中內容，幾乎完全了解裡面程式</li>
+</ol>
   
 > * <h3></h3>
   
-  <p>還沒全部做完，持續增加中</p>
+<p>還沒全部做完，持續增加中</p>
  
  
