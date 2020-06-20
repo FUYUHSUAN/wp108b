@@ -10,17 +10,13 @@ const Shop = {
   
   Shop.html = `
   <div>
-  <div class="w3-display-topleft w3-container w3-xlarge">
+    <div class="w3-display-topleft w3-container w3-xlarge">
 
-  
-</div>
+    </div>
     <button class="w3-button w3-black w3-round-xlarge" onclick="Setting.start()">Store setting</button></br></br>
     <button class="w3-button w3-black w3-round-xlarge" onclick="Report.start()">Daily earnings</button></br></br>
-    <button class="w3-button w3-black w3-round-xlarge" onclick="Pos.start()">A La Cart</button>
+    <button class="w3-button w3-black w3-round-xlarge" onclick="Pos.start()">A La Cart</button></br></br>
   </div>
-
-
-
   `
   
   Shop.start = function () {
@@ -62,5 +58,9 @@ const Shop = {
     if (orderJson == null) return null
     return JSON.parse(orderJson)
   }
+
+
+
+  
 
 

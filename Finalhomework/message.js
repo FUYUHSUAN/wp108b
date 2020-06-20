@@ -66,7 +66,7 @@ window.onload = function() {
 }
 
 
-//小視窗
+//小視窗，有對其做大幅度的改變
 function confirmTest() {
         Swal.fire({
             title: "Do you want to hand out?",

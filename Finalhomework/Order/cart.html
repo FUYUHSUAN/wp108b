@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <title>
+
+  </title>
+  <link rel="stylesheet" type="css/text" href="order.css">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="order.css">
+    <script src="order.js"></script>
+  </head>
+  <body >
+    <div class="backage">
+        <div class="container1">
+            <table id="cartTable" class="textCenter">
+                <tr>
+                    <th></th>
+                    <th>ITEM</th>
+                    <th>NAME</th>
+                    <th>PRICE (NT)</th>
+                    <th>QUANTITY</th>
+                </tr>
+            </table>
+            <p id="emptycart"></p>
+            <div class="totalPrice">
+                <p id="tatol">Total:</p>
+            </div>
+            <div class="wrapper">
+                <button class="button2 bPosition" onclick="checkOut()">Checkout</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        cartFunction();
+        totalFunction();
+    </script>
+  </body>
+</html>
