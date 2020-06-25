@@ -109,7 +109,7 @@ function Checkout(){
     }
     if(j!=0){
         startData();
-        location.href="checkOut.html";
+        location.href="final.html";
     }
     else alert("You don't any item need to cart!");
 }

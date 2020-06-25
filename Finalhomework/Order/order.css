@@ -1,5 +1,5 @@
 .frame{
-    background-color: slateblue;
+    background-color: rgb(114, 230, 129);
     padding-bottom: 100px;
     padding-left: 50px;
     text-decoration: underline;
@@ -8,6 +8,13 @@
 .imgpicture{
     width: 250px;
     padding: 25px;
+    width:"300";
+    height:"225";
+}
+
+img{
+  width:50% ;
+  height:40%;
 }
 
 .button{
