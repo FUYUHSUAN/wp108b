@@ -6,15 +6,13 @@
 }
 
 .imgpicture{
-    width: 250px;
     padding: 25px;
     width:"300";
     height:"225";
 }
 
 img{
-  width:50% ;
-  height:40%;
+  height:120px;
 }
 
 .button{
@@ -168,4 +166,8 @@ img{
     position: absolute;
     left: 200%;
     bottom: 0;
+  }
+
+  body{
+    background-color: rgb(114, 230, 129);
   }

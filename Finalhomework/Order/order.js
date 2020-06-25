@@ -1,9 +1,10 @@
+
 function startData(){
-    localStorage.getItem('pizza',0);
-    localStorage.getItem('sandwich',0);
-    localStorage.getItem('dessert',0);
-    localStorage.getItem('juice',0);
-    localStorage.getItem('steak',0);
+    localStorage.setItem('pizza',0);
+    localStorage.setItem('sandwich',0);
+    localStorage.setItem('dessert',0);
+    localStorage.setItem('juice',0);
+    localStorage.setItem('steak',0);
 }
 
 function loadfunction(){
