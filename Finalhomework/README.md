@@ -13,7 +13,8 @@
 ## 點餐系統POS的應用使用方式:
 * 剛點進去時，能看見本作業的主頁面，有about,menu,Our Chef,Foodpicture，這四個連結都是呼叫底下的四個頁面；接者，旁邊有register和login要先使用register註冊完後才能login用剛剛註冊的帳號密碼進入pos系統。在pos系統中我是參考老師給的範例做大部分的改編但整體功能和老師寫得差不多(至於改了那些，以下會詳細介紹)。接者，我要介紹側攔，裡面仍然有四個選項，分別連下三個page，分別是The opinion you want to reply,Business Hours,Order food,其中Order food 就是如果沒註冊的客人可以進入的介面，裡面的是進入點餐系統的頁面，使用方法為先點您想點的食物，然後點到shopping cart中去checkouut。The opinion you want to reply 是運用blog去完成的回覆意見系統。
 ## 本次作業主要學習到的部分:
->* 我這次作業在html方面我更了解其用法，包括熟練地使用div,和id,class中比次的搭配。而我大多會使用class來做標示，可以重複使用，可共用同一個css，不用一直重寫css，但有時候還是得用id，因為要和js一起搭配時就得用id，但id的缺點就是不能重複命名。接著，還有搭配onclick()的使用，這個就是在觸發某件動作時會出現的該function，我廣泛將此應用於
+### 1.HTML
+>* 我這次作業在html方面我更了解其用法，包括熟練地使用div,和id,class中比次的搭配。而我大多會使用class來做標示，可以重複使用，可共用同一個css，不用一直重寫css，但有時候還是得用id，因為要和js一起搭配時就得用id，但id的缺點就是不能重複命名。接著，還有搭配onclick()的使用，這個就是在觸發某件動作時會出現的該function，我廣泛將此應用於所有要連結其他分頁的部分，包含[main.html](main.html)中的側攔，還有[menu.html](menu.html)中的按下Set Menu和A La Carte就呼叫相對應的菜單，接著就是[message.html](message.html)中的Receive的按鈕也是用onclick='confirmTest()'去呼叫confirmTest()
 ## 作品參考來源:
 ### 接者，就來介紹一下，作品中所參考的資料，及我對其理解及改篇的程度。
 > * <h3>頁面開始(main.html)</h3>
