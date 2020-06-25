@@ -26,8 +26,7 @@
 ### 接者，就來介紹一下，作品中所參考的資料，及我對其理解及改篇的程度。
 > * <h3>頁面開始(main.html)</h3>
 <ol>
-<li>我的版面配置[main.html](main.html)是參考W3 School中的W3 Templete
-<p> [W3 Templete1](https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_gourmet_catering&stacked=h)</p>
+<li>我的版面配置[main.html](main.html)是參考W3 School中的[W3 Templete1](https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_gourmet_catering&stacked=h)
 <p> [W3 Templete2](https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_food_blog&stacked=h)</p></li>
 <li>其中我對其中的html,css是全部理解。js是有一小部分不太理解，我認為我有大幅度的修改裡面內容</li>
 <li>裡面可動圖片的我是參考[CSS Gallery](https://codepen.io/heyDante/pen/bxEYOw)</li>
