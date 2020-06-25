@@ -17,21 +17,20 @@
 * 剛點進去時，能看見本作業的主頁面，有about,menu,Our Chef,Foodpicture，這四個連結都是呼叫底下的四個頁面；接者，旁邊有register和login要先使用register註冊完後才能login用剛剛註冊的帳號密碼進入pos系統。在pos系統中我是參考老師給的範例做大部分的改編但整體功能和老師寫得差不多(至於改了那些，以下會詳細介紹)。接者，我要介紹側攔，裡面仍然有四個選項，分別連下三個page，分別是The opinion you want to reply,Business Hours,Order food,其中Order food 就是如果沒註冊的客人可以進入的介面，裡面的是進入點餐系統的頁面，使用方法為先點您想點的食物，然後點到shopping cart中去checkouut。The opinion you want to reply 是運用blog去完成的回覆意見系統。
 ## 本次作業主要學習到的部分:
 ### 1.HTML
->* 我這次作業在html方面我更了解其用法，包括熟練地使用<div>,和<id>,<class>中比次的搭配。而我大多會使用class來做標示，可以重複使用，可共用同一個css，不用一直重寫css，但有時候還是得用id，因為要和js一起搭配時就得用id，但id的缺點就是不能重複命名。還有target="_block"是在新分頁開啟，target="_self"。接著，還有搭配onclick()的使用，這個就是在觸發某件動作時會出現的該function，我廣泛將此應用於所有要連結其他分頁的部分，包含[main.html](main.html)中的側攔，還有[menu.html](menu.html)中的按下Set Menu和A La Carte就呼叫相對應的菜單，接著就是[message.html](message.html)中的Receive的按鈕也是用onclick='confirmTest()'去呼叫confirmTest()，在點餐系統中[cart.html](cart.html)onclick="Checkout()"也使用此。其他在html中我也學到了<footer>,<img src=>,和<section>的用法，<section>就是類似容器，可以將一個區塊包裝起來，適合用來獨立的大鋼之類的地方，而如果要做分段時則更建議使用 <article>，如果要用在一篇文章的分段建議用，如果要做一整個page或是較大區塊的包裝建議用div來做，這多使用於美化包裝時使用。
+>* 我這次作業在html方面我更了解其用法，包括熟練地使用<div>,和<id>,<class>中比次的搭配。而我大多會使用class來做標示，可以重複使用，可共用同一個css，不用一直重寫css，但有時候還是得用id，因為要和js一起搭配時就得用id，但id的缺點就是不能重複命名。還有target="_block"是在新分頁開啟，target="_self"。接著，還有搭配onclick()的使用，這個就是在觸發某件動作時會出現的該function，我廣泛將此應用於所有要連結其他分頁的部分，包含[main.html](main.html)中的側攔，還有[menu.html](menu.html)中的按下Set Menu和A La Carte就呼叫相對應的菜單，接著就是[message.html](message.html)中的Receive的按鈕也是用onclick='confirmTest()'去呼叫confirmTest()，在點餐系統中[cart.html](cart.html)onclick="Checkout()"也使用此。其他在html中我也學到了<footer>,<img src=>,和<section>的用法，<section>就是類似容器，可以將一個區塊包裝起來，適合用來獨立的大鋼之類的地方，而如果要做分段時則更建議使用 <article>，如果要用在一篇文章的分段建議用，如果要做一整個page或是較大區塊的包裝建議用div來做，這多使用於美化包裝時使用。其他細部介紹則會寫於程式碼註解中。
 ### 2.CSS
->* 本次作業關於css的方面，我也比期中學習到更多的應用，除了基本id是用"."，class是用"#"，<>是不用加任何符號表示外。我也學到了height,width中px,%,vw的差別
-  
+>* 本次作業關於css的方面，我也比期中學習到更多的應用，除了基本id是用"."，class是用"#"，<>是不用加任何符號表示外。我也學到了height,width中px,%,vw的差別...未完待續。其他細部介紹則會寫於程式碼註解中。
 ### 3.JS
->* 在js這次中我認為這是我學到最多的，我這次學到了localstorage的應用，這就是前端儲存資料的使用方法，在[login.html](login.html)所有都是我自己打的，其中裡面少部分bug是美亞幫我除錯的[login.js](login.js)中的第7,8,19,20行是美亞替我修改的。在這個中我學到了localStorage.setItem是從後面地的值設定到前面的那個值，"localStorage.setItem('Enteruser', name);"這個就是把name的值放到Enteruser中，而getItem而是得到該物的值，例如"var StoreP=localStorage.getItem('pwd');"就是用變數StoreP存pwd中的值。而在[register.html](register.html)和[login.html](login.html)中onClick="reg()"和onClick="login()"就是分別去呼叫裡面函式。接者我要介紹[order.js](order.js)這部分是學習且詢問美亞的一部分，我學到document.getElementById('productTitle').innerHTML是取得productTitle這個id東西中的值或是字串，document.getElementById('productimg').src則是放入圖片
+>* 在js這次中我認為這是我學到最多的，我這次學到了localstorage的應用，這就是前端儲存資料的使用方法，在[login.html](login.html)所有都是我自己打的，其中裡面少部分bug是美亞幫我除錯的[login.js](login.js)中的第7,8,19,20行是美亞替我修改的。在這個中我學到了localStorage.setItem是從後面地的值設定到前面的那個值，"localStorage.setItem('Enteruser', name);"這個就是把name的值放到Enteruser中，而getItem而是得到該物的值，例如"var StoreP=localStorage.getItem('pwd');"就是用變數StoreP存pwd中的值，"localstorage.clear()"就是清除全部資料的部分。而在[register.html](register.html)和[login.html](login.html)中onClick="reg()"和onClick="login()"就是分別去呼叫裡面函式。接者我要介紹[order.js](order.js)這部分是學習且詢問美亞的一部分，我學到document.getElementById('productTitle').innerHTML是取得productTitle這個id東西中的值或是字串，document.getElementById('productimg').src則是放入圖片。js中的alert則是出現警示小視窗的部分。其他細部介紹則會寫於程式碼註解中。
 ## 作品參考來源:
 ### 接者，就來介紹一下，作品中所參考的資料，及我對其理解及改篇的程度。
 > * <h3>頁面開始(main.html)</h3>
 <ol>
-<li>我的版面配置[main.html](https://github.com/FUYUHSUAN/wp108b/blob/master/Finalhomework/main.html)是參考W3 School中的W3 Templete
+<li>我的版面配置[main.html](main.html)是參考W3 School中的W3 Templete
 <p> [W3 Templete1]    (https://www.w3schools.com/w3css/tryit.asp?        filename=tryw3css_templates_gourmet_catering&stacked=h)</p>
 <p> [W3 Templete2](https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_food_blog&stacked=h)</p></li>
 <li>其中我對其中的html,css是全部理解。js是有一小部分不太理解，我認為我有大幅度的修改裡面內容</li>
-<li>裡面圖片的格式我是參考[CSS Gallery](https://codepen.io/heyDante/pen/bxEYOw)</li>
+<li>裡面可動圖片的我是參考[CSS Gallery](https://codepen.io/heyDante/pen/bxEYOw)</li>
 </ol>
 <ol>
   
