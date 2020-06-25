@@ -4,6 +4,9 @@
 >* 作品:並非100%原創
 >* 圖片來源:都來自CC picture 和 Freepik圖片皆有在其圖上或是footer 的地方標示出處
 >* 我會在markdown和我的程式碼中顯示哪些是我寫的和對程式碼的理解程度
+>* 特別感謝陳鍾誠老師的教導，也感謝魏美亞在我需要時給予我適時的幫助
+## 介紹作業方式:
+<h4>我會將我學到的部分寫到"本次作業主要學習到的部分:"，而在作品參考來源和那些是我改的，哪些是我寫的則會寫在"本次作業主要學習到的部分:"，而程式碼細部的介紹則會直接寫於程式碼旁邊註解</h4>
 ## 前言:
 * 我的作業從5/28就一步一步起程了，一開始我確實沒什麼想法，原本想直接做筆記，但後來發現做一份主題式的應用網頁，更能在其中邊做邊學習到許多東西，因此我選擇了"點餐系統POS的應用"。
 ## 創作想法來源:
@@ -16,7 +19,10 @@
 ### 1.HTML
 >* 我這次作業在html方面我更了解其用法，包括熟練地使用<div>,和<id>,<class>中比次的搭配。而我大多會使用class來做標示，可以重複使用，可共用同一個css，不用一直重寫css，但有時候還是得用id，因為要和js一起搭配時就得用id，但id的缺點就是不能重複命名。還有target="_block"是在新分頁開啟，target="_self"。接著，還有搭配onclick()的使用，這個就是在觸發某件動作時會出現的該function，我廣泛將此應用於所有要連結其他分頁的部分，包含[main.html](main.html)中的側攔，還有[menu.html](menu.html)中的按下Set Menu和A La Carte就呼叫相對應的菜單，接著就是[message.html](message.html)中的Receive的按鈕也是用onclick='confirmTest()'去呼叫confirmTest()，在點餐系統中[cart.html](cart.html)onclick="Checkout()"也使用此。其他在html中我也學到了<footer>,<img src=>,和<section>的用法，<section>就是類似容器，可以將一個區塊包裝起來，適合用來獨立的大鋼之類的地方，而如果要做分段時則更建議使用 <article>，如果要用在一篇文章的分段建議用，如果要做一整個page或是較大區塊的包裝建議用div來做，這多使用於美化包裝時使用。
 ### 2.CSS
->* 本次作業關於css的方面，我也比期中學習到更多的應用，除了基本id是用"."，class是用"#"，<>是不用加任何符號表示外
+>* 本次作業關於css的方面，我也比期中學習到更多的應用，除了基本id是用"."，class是用"#"，<>是不用加任何符號表示外。我也學到了height,width中px,%,vw的差別
+  
+### 3.JS
+>* 在js這次中我認為這是我學到最多的，我這次學到了localstorage的應用，這就是前端儲存資料的使用方法，在[login.html](login.html)所有都是我自己打的，其中裡面少部分bug是美亞幫我除錯的[login.js](login.js)中的第7,8,19,20行是美亞替我修改的。在這個中我學到了localStorage.setItem是從後面地的值設定到前面的那個值，"localStorage.setItem('Enteruser', name);"這個就是把name的值放到Enteruser中，而getItem而是得到該物的值，例如"var StoreP=localStorage.getItem('pwd');"就是用變數StoreP存pwd中的值。而在[register.html](register.html)和[login.html](login.html)中onClick="reg()"和onClick="login()"就是分別去呼叫裡面函式。接者我要介紹[order.js](order.js)這部分是學習且詢問美亞的一部分，我學到document.getElementById('productTitle').innerHTML是取得productTitle這個id東西中的值或是字串，document.getElementById('productimg').src則是放入圖片
 ## 作品參考來源:
 ### 接者，就來介紹一下，作品中所參考的資料，及我對其理解及改篇的程度。
 > * <h3>頁面開始(main.html)</h3>
