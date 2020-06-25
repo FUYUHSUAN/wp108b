@@ -38,7 +38,8 @@
 * 運用漂亮[小視窗](http://mishengqiang.com/sweetalert2/)SweetAlert2，有小部分的修改期中內容，幾乎完全了解裡面程式
 
   
-> * <h3>介紹時刻表time.html</h3>
+> * <h3>POS系統</h3>
+* 格式及內容參考於老師的[POS](https://github.com/ccccourse/wp/tree/master/code/08-app2/pos/06-report?fbclid=IwAR3OGvU4br40LjEhdYWScWcm2nEbxluvgHqN24fyIFPtAVYTpL7dOiEk4VU)
 * 
   
 <p>還沒全部做完，持續增加中</p>
