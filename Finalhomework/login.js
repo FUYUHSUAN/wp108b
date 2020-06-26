@@ -6,6 +6,7 @@ function reg(){
     var StoreP = document.getElementById("pwd").value;
     localStorage.setItem('name',StoreN);
     localStorage.setItem('pwd',StoreP);
+    if(StoreN.length > 0 && StoreP.length >0) alert("data has been recorded");
 }
 
 function login(){
