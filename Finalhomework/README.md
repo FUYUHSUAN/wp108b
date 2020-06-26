@@ -37,10 +37,14 @@
 * 這裡面的基本配置來自老師教得[blog](https://ccccourse.github.io/wp/code/08-app2/blog/vanillaBlog.html?fbclid=IwAR3B366-aytjcL6UqLVouj7tysDSKywOJQ97w7fg1uwG4ZvYf6o1E19cYoI#/list/)
 * 運用漂亮[小視窗](http://mishengqiang.com/sweetalert2/)SweetAlert2，有小部分的修改期中內容，幾乎完全了解裡面程式
 >*  <h3>時刻表(bussiness)
+ * [time.html](time.html)參考[這個格式去寫](https://tpu.thinkpower.com.tw/tpu/articleDetails/1220)其中html部分都是自己理解並打的,css的部分只做了小幅度size和color的改變，還有container也是我自己加上去的。其他css我皆是大部分了解其作用。
   
-> * <h3>POS系統</h3>
+>* <h3>POS系統</h3>
 * 格式及內容參考於老師的[POS](https://github.com/ccccourse/wp/tree/master/code/08-app2/pos/06-report?fbclid=IwAR3OGvU4br40LjEhdYWScWcm2nEbxluvgHqN24fyIFPtAVYTpL7dOiEk4VU)
+* 期中裡面的版面配置是參考[表格1](https://codepen.io/alassetter/pen/cyrfB)[表格2](https://codepen.io/iambeccagould/pen/tbwjh)其中[Report.css](Report.css)則是全部參考[表格2](https://codepen.io/iambeccagould/pen/tbwjh)的css來做，則[Setting.css](Setting.css)中表格的美觀部分也是參閱[表格1](https://codepen.io/alassetter/pen/cyrfB)
 
+>* <h3>客戶端的點餐系統部分(Order)</h3>
+* order的部分則是大多詢問美亞的
   
 <p>還沒全部做完，持續增加中</p>
  
