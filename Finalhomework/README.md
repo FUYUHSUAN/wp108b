@@ -4,7 +4,7 @@
 >* 作品:並非100%原創
 >* 圖片來源:都來自CC picture 和 Freepik圖片皆有在其圖上或是footer 的地方標示出處
 >* 我會在markdown和我的程式碼中顯示哪些是我寫的和對程式碼的理解程度
->* 特別感謝陳鍾誠老師的教導，也感謝魏美亞在我需要時給予我適時的幫助
+>* 特別感謝陳鍾誠老師的教導告訴我哪裡缺少及需要更改。也感謝魏美亞在我需要時給予我適時的幫助，是非常好且強勁的學習夥伴。
 ## 介紹作業方式:
 * 我會將我學到的部分寫到"本次作業主要學習到的部分:"，而在作品參考來源和那些是我改的，哪些是我寫的則會寫在"本次作業主要學習到的部分:"，而程式碼細部的介紹則會直接寫於程式碼旁邊註解
 ## 前言:
@@ -44,8 +44,8 @@
 * 期中裡面的版面配置是參考[表格1](https://codepen.io/alassetter/pen/cyrfB)[表格2](https://codepen.io/iambeccagould/pen/tbwjh)其中[Report.css](Report.css)則是全部參考[表格2](https://codepen.io/iambeccagould/pen/tbwjh)的css來做，則[Setting.css](Setting.css)中表格的美觀部分也是參閱[表格1](https://codepen.io/alassetter/pen/cyrfB)
 
 >* <h3>客戶端的點餐系統部分(Order)</h3>
-* order的部分則是大多詢問美亞的
+* [order](https://github.com/FUYUHSUAN/wp108b/tree/master/Finalhomework/Order)大部分的程式是自己打的，不懂的部分是詢問且參考[美亞的期中作業](https://github.com/NubletZ/wp108b/tree/master/homework/PersonalStore%20(Midterm))。
   
-<p>還沒全部做完，持續增加中</p>
+<p>目前世間允許的範圍內，只能介紹到這樣，如果在截止日期前還有時間，將持續更新</p>
  
  
