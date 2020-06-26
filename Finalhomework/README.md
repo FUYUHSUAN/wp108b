@@ -24,7 +24,7 @@
 >* 在js這次中我認為這是我學到最多的，我這次學到了localstorage的應用，這就是前端儲存資料的使用方法，在[login.html](login.html)所有都是我自己打的，其中裡面少部分bug是美亞幫我除錯的[login.js](login.js)中的第7,8,19,20行是美亞替我修改的。在這個中我學到了localStorage.setItem是從後面地的值設定到前面的那個值，"localStorage.setItem('Enteruser', name);"這個就是把name的值放到Enteruser中，而getItem而是得到該物的值，例如"var StoreP=localStorage.getItem('pwd');"就是用變數StoreP存pwd中的值，"localstorage.clear()"就是清除全部資料的部分。而在[register.html](register.html)和[login.html](login.html)中onClick="reg()"和onClick="login()"就是分別去呼叫裡面函式。接者我要介紹[order.js](order.js)這部分是學習且詢問美亞的一部分，我學到document.getElementById('productTitle').innerHTML是取得productTitle這個id東西中的值或是字串，document.getElementById('productimg').src則是放入圖片。js中的alert則是出現警示小視窗的部分。其他細部介紹則會寫於程式碼註解中。
 ## 作品參考來源:
 ### 接者，就來介紹一下，作品中所參考的資料，及我對其理解及改篇的程度。
-> * <h3>頁面開始main.html</h3>
+>* <h3>頁面開始main.html</h3>
 
 * 我的版面配置[main.html](main.html)是參考W3 School中的[W3 Templete1](https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_gourmet_catering&stacked=h)
  [W3 Templete2](https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_food_blog&stacked=h)
@@ -32,16 +32,15 @@
 * 裡面可動圖片的我是參考[CSS Gallery](https://codepen.io/heyDante/pen/bxEYOw)
 
   
-> * <h3> 接者介紹顧客反應介面(message.html和message.js)</h3>
+>* <h3> 接者介紹顧客反應介面(message.html和message.js)</h3>
 
 * 這裡面的基本配置來自老師教得[blog](https://ccccourse.github.io/wp/code/08-app2/blog/vanillaBlog.html?fbclid=IwAR3B366-aytjcL6UqLVouj7tysDSKywOJQ97w7fg1uwG4ZvYf6o1E19cYoI#/list/)
 * 運用漂亮[小視窗](http://mishengqiang.com/sweetalert2/)SweetAlert2，有小部分的修改期中內容，幾乎完全了解裡面程式
-> * <h3></h3> 
-
+>*  <h3>時刻表(bussiness)
   
 > * <h3>POS系統</h3>
 * 格式及內容參考於老師的[POS](https://github.com/ccccourse/wp/tree/master/code/08-app2/pos/06-report?fbclid=IwAR3OGvU4br40LjEhdYWScWcm2nEbxluvgHqN24fyIFPtAVYTpL7dOiEk4VU)
-* 
+
   
 <p>還沒全部做完，持續增加中</p>
  
