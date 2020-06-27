@@ -10,7 +10,7 @@
 ```
 ## 學習到的部分:
 >*  在期中作業的部分，我主要是學習到html和css的應用，對於js我使用的部分較少，js中使用的部分也只是使其多一些美觀的功能。
->* 1.html:持續更新中
+>* 1.html:在期中作業的html中，我除了運用在期中前所學到及
 >* 2.css:持續更新中
 ## 引用及修改網址:
 > * 這部份是我有引用html是看懂後對裡面的文字圖例做小部分修改 [environment.html](environment.html)/[environment.css](environment.css)[參考及引用網址](https://codepen.io/sashatran/pen/aJvaEG)
@@ -20,6 +20,6 @@
 > * main.css則是參考W3School中策欄的css並做了顏色及其他小功能的改變[main.css中測欄](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav)
 > * school.html全為自己寫的
 > * [enter.html](enter.html) / [enter2.html](enter2.html)都是自己做的參考我第二次作業[HW2](https://github.com/FUYUHSUAN/wp108b/tree/master/HW2)
-> * [freshman.html](freshman.html) / [freshman.css](freshman.css) [ 參考 ](https://codepen.io/panikaro/pen/yXapaK)
-> * [first.html](first.html) /[first1.html](first1.html) 參考[w3school ](https://www.w3schools.com/html/html_layout.asp)
+> * [freshman.html](freshman.html) / [freshman.css](freshman.css) [參考](https://codepen.io/panikaro/pen/yXapaK)
+> * [first.html](first.html) /[first1.html](first1.html) 參考[w3school](https://www.w3schools.com/html/html_layout.asp)
 > * freshmanqa.html 全都是自己打的
