@@ -10,7 +10,7 @@
 ```
 ## 學習到的部分:
 >*  在期中作業的部分，我主要是學習到html和css的應用，對於js我使用的部分較少，js中使用的部分也只是使其多一些美觀的功能。
->* 1.html:在期中作業的html中，我除了運用在期中前所學到還有網路上的資源，我有學習到了
+>* 1.html:在期中作業的html中，我除了運用在期中前所學到還有網路上的資源，我有學習到了使用標籤[label](freshman.html)的用法
 >* 2.css:持續更新中
 ## 引用及修改網址:
 > * 這部份是我有引用html是看懂後對裡面的文字圖例做小部分修改 [environment.html](environment.html)/[environment.css](environment.css)[參考及引用網址](https://codepen.io/sashatran/pen/aJvaEG)
