@@ -16,6 +16,7 @@ const Shop = {
     <button class="w3-button w3-black w3-round-xlarge" onclick="Setting.start()">Store setting</button></br></br>
     <button class="w3-button w3-black w3-round-xlarge" onclick="Report.start()">Daily earnings</button></br></br>
     <button class="w3-button w3-black w3-round-xlarge" onclick="Pos.start()">A La Cart</button></br></br>
+    <button class="w3-button w3-black e3-round-xlarge">~<a href="../main.html">Go back host's page</a>~ </button>
   </div>
   `
   
