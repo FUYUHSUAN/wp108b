@@ -6,12 +6,13 @@
 > * 解釋方式:我會將自己寫和參考的部分區分，這將寫於程式碼內。而引用網址的將寫於此(markdown中)
 ## 前言:
 ```
-  期中作業我選擇製作組織網頁，因為，我像將網頁應用於實際應用上做做看，因此，我選擇我從經短暫打工及成長曾待過的地方作為本次的主題。
+  期中作業我選擇製作組織網頁，因為，我像將網頁應用於實際應用上做做看，因此，我選擇我從經短暫打工及成長曾待過的地方作為本次的主題，也許將來我能學會前後端的應用，且更熟悉如何寫網頁，我就能替他們打造出專屬的網頁。
 ```
 ## 學習到的部分:
->*  在期中作業的部分，我主要是學習到html和css的應用，對於js我使用的部分較少，js中使用的部分也只是使其多一些美觀的功能。
->* 1.html:在期中作業的html中，我除了運用在期中前所學到還有網路上的資源，我有學習到了使用標籤[label](freshman.html)的用法
->* 2.css:持續更新中
+>*  在期中作業的部分，我主要是學習到html和css的應用，對於js我使用的部分較少。
+>* 1.html:在期中作業的html中，我除了運用在期中前所學到還有網路上的資源，我除了學到最基本的連結<a>，用<div>來包裝一塊，用<img>來插入圖片，我也學習到了使用標籤[label](freshman.html)去顯示出我想要的表現事物的用法，更熟練使用[login](enter2.html),[register](enter.html)的用法(只是目前無法真正地去登錄註冊它)，我在此次作業中也更加熟悉[表格的製作](school.html)
+>* 2.css:在css中，我學會幾乎各種英文名稱所代表的對應功能。
+>* 3.js:在js中，本次作業只用了最基本的方法，，只做了學會了[側欄](peterbear.js)中呼叫開闔的方法
 ## 引用及修改網址:
 > * 這部份是我有引用html是看懂後對裡面的文字圖例做小部分修改 [environment.html](environment.html)/[environment.css](environment.css)[參考及引用網址](https://codepen.io/sashatran/pen/aJvaEG)
 > * 這部份幾乎是自己打的，參考及學習於W3School，此處的全都共用於peterbear.js和main.css。[attitude.html](attitude.html)[elementary.html](elementary.html)/[attitude.html](attitude.html)/[junior.html](junior.html)/[peterbear.html](peterbear.html)/[test.html](test.html)這接接學習於[W3School](https://www.w3schools.com/html/default.asp)
