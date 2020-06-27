@@ -3,7 +3,7 @@ const Shop = {
     name: 'Christina Restaurant ',
     address: 'Kinmen college Taiwan',
     tel: '082-333333',
-    items: {'Coffee': 70, 'apple juice': 65, 'fresh juice': 70 },
+    items: {'Pizza': 300, 'Sandwich': 130, 'Dessert': 150,'Juice':80,'Steak':350 },
     addons: {'Normal': 0, 'Bigger/More': 15, 'hot': 0, 'cool': 0 },
     orderCount: 0,
   }
